@@ -29,7 +29,7 @@ class ContaBancaria {
 
 
 
-class ContaCorrente extends ContaBancaria {
+class ContaCorrente extends ContaBancaria { //classe filha de conta bancaria
   constructor(agencia, numero){
     super(agencia, numero); //tudo que receber vai para o construtor;
     this.tipo = 'corrente';
@@ -47,7 +47,7 @@ class ContaCorrente extends ContaBancaria {
 
 
 
-class ContaPoupança extends ContaBancaria {
+class ContaPoupança extends ContaBancaria {    //classe filha
   constructor(agencia, numero){
     super(agencia, numero); //tudo que receber vai para o construtor;
     this.tipo = 'poupança';
